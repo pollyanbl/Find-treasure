@@ -1,0 +1,48 @@
+/* style.css */
+html, body {
+  height: 100%; /* 设置html和body的高度为100% */
+  margin: 0; /* 移除默认的margin */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-repeat: no-repeat; /* 确保背景图片不重复 */
+  background-size: cover; /* 覆盖整个元素，保持图片比例 */
+  background-image: url('image/森林.jpeg'); /* 设置初始背景图片 */
+}
+
+#story {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  color: white; /* 设置文本颜色为白色 */
+}
+
+#startButton {
+  background-color: #4CAF50; /* 绿色背景 */
+  color: white; /* 白色文字 */
+  padding: 15px 32px; /* 内边距 */
+  text-align: center; /* 文字居中 */
+  text-decoration: none; /* 无装饰 */
+  display: inline-block; /* 块级内联元素 */
+  font-size: 16px; /* 字体大小 */
+  margin: 4px 2px; /* 外边距 */
+  cursor: pointer; /* 鼠标悬停时显示指针 */
+  border: none; /* 无边框 */
+  border-radius: 8px; /* 圆角边框 */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* 阴影效果 */
+  transition: background-color 0.3s, box-shadow 0.3s; /* 过渡效果 */
+}
+
+#startButton:hover {
+  background-color: #45a049; /* 悬停时改变背景颜色 */
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.3), 0 10px 30px 0 rgba(0,0,0,0.22); /* 悬停时改变阴影效果 */
+}
+#error {
+  color: red;
+}
+
+
+
